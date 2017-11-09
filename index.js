@@ -6,3 +6,16 @@ function printBadges(employees){
 
   return employees;
 }
+
+function tailsNeverFails(){
+  if (Math.random() >= 0.5){
+    return true}
+  else {
+    return false
+  };
+  
+}
+ 
+while (tailsNeverFails()) {
+  console.log('');
+}
