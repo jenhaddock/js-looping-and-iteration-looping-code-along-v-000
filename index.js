@@ -8,14 +8,11 @@ function printBadges(employees){
 }
 
 function tailsNeverFails(){
-  if (Math.random() >= 0.5){
-    return true;}
-  else {
-    return `You got ${i} tails in a row!`;
+  let i = 0;
+
+  while (Math.random() >= 0.5){
+    i++;
   }
+  return `You got ${i} tails in a row!`;
 }
 
-let i = 0;
-while (tailsNeverFails() === true) {
-  i++;
-}
