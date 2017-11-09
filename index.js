@@ -20,4 +20,4 @@ while (tailsNeverFails() === true) {
   i++;
 }
 
-console.log(`You got ${i} tails in a row!`);
+return `You got ${i} tails in a row!`;
