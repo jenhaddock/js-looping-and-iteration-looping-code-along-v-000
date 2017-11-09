@@ -11,7 +11,7 @@ function tailsNeverFails(){
   if (Math.random() >= 0.5){
     return true}
   else {
-    return false
+    return `You got ${i} tails in a row!`;
   };
 }
 
@@ -20,4 +20,4 @@ while (tailsNeverFails() === true) {
   i++;
 }
 
-return `You got ${i} tails in a row!`;
+
